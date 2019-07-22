@@ -22,7 +22,8 @@
     "wordpress": "5.2.2",
     "fancyguy/webroot-installer": "1.0.0",
     "vlucas/phpdotenv": "^2.4",
-    "wpackagist-plugin/updraftplus": "1.16.15"
+    "wpackagist-plugin/updraftplus": "1.16.15",
+    "wpackagist-theme/astra":"*"
   },
   "extra": {
     "webroot-dir": "public/wp",
