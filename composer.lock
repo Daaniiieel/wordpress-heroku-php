@@ -100,7 +100,7 @@
         },
         {
             "name": "wordpress",
-            "version": "4.2.2",
+            "version": "5.2.2",
             "dist": {
                 "type": "zip",
                 "url": "https://github.com/WordPress/WordPress/archive/5.2.2.zip",
