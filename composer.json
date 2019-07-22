@@ -42,6 +42,6 @@
     "heroku/heroku-buildpack-php": "dev-master"
   },
   "config": {
-    "secure-http": false
+    "secure-http": true
   }
 }
