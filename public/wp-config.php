@@ -60,7 +60,7 @@ if ( file_exists( dirname( __FILE__ ) . '/local-config.php' ) ) {
 	define("WP_CACHE", getenv("WP_CACHE") == "true");
 
 	/** Disable the built-in cron job */
-	define("DISABLE_WP_CRON", getenv("DISABLE_WP_CRON") == "true");
+	define("DISABLE_WP_CRON", getenv("DISABLE_WP_CRON") == false);
 
 	/** Disable automatic updates, they won't survive restarting and scaling dynos */
 	define("AUTOMATIC_UPDATER_DISABLED", true );
